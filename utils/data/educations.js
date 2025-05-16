@@ -1,20 +1,14 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "MSc in Information and Systems Security",
+    duration: "2020 - 2023",
+    institution: "Bangladesh University of Professionals (BUP)",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "BSc in Information and Communication Engineering",
+    duration: "2016 - 2020",
+    institution: "Bangladesh University of Professionals (BUP)",
   }
 ]
