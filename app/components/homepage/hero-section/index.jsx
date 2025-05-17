@@ -133,13 +133,13 @@ function HeroSection() {
               </div>
               <div className="ml-12 lg:ml-24">
                 <span className="text-gray-400">&quot;</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">Kubernetes</span>
                 <span className="text-gray-400">&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12 lg:ml-24">
                 <span className="text-gray-400">&quot;</span>
-                <span className="text-amber-300">Kubernetes</span>
+                <span className="text-amber-300">Helm</span>
                 <span className="text-gray-400">&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
