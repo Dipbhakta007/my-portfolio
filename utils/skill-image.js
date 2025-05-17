@@ -81,12 +81,66 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
-
-
+import argocd from '../app/assets/svg/skills/argocd.svg'
+import helm from '../app/assets/svg/skills/helm.svg'
+import gitlab from '../app/assets/svg/skills/gitlab.svg'
+import jenkins from '../app/assets/svg/skills/jenkins.svg'
+import elasticsearch from '../app/assets/svg/skills/elasticsearch.svg'
+import logstash from '../app/assets/svg/skills/logstash.svg'
+import kibana from '../app/assets/svg/skills/kibana.svg'
+import grafana from '../app/assets/svg/skills/grafana.svg'
+import prometheus from '../app/assets/svg/skills/prometheus.svg'
+import kafka from '../app/assets/svg/skills/kafka.svg'
+import redis from '../app/assets/svg/skills/redis.svg'
+import rabbitmq from '../app/assets/svg/skills/rabbitmq.svg'
+import ansible from '../app/assets/svg/skills/ansible.svg'
+import terraform from '../app/assets/svg/skills/terraform.svg'
+import vault from '../app/assets/svg/skills/vault.svg'
+import harbor from '../app/assets/svg/skills/harbor.svg'
+import trivy from '../app/assets/svg/skills/trivy.svg'
+import sonarqube from '../app/assets/svg/skills/sonarqube.svg'
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'trivy':
+      return trivy;
+    case 'harbor':
+      return harbor;
+    case 'sonarqube':
+      return sonarqube;
+    case 'vault':
+      return vault;
+    case 'rabbitmq':
+      return rabbitmq;
+    case 'redis':
+      return redis;
+    case 'kafka':
+      return kafka;
+    case 'terraform':
+      return terraform;
+    case 'ansible':
+      return ansible;
+    case 'grafana':
+      return grafana;
+    case 'loki':
+      return grafana;
+    case 'prometheus':
+      return prometheus;
+    case 'elasticsearch':
+      return elasticsearch;
+    case 'logstash':
+      return logstash;
+    case 'kibana':
+      return kibana;   
+    case 'jenkins':
+      return jenkins;
+    case 'gitlab ci':
+      return gitlab;
+    case 'helm':
+      return helm;
+    case 'argo cd':
+      return argocd;
     case 'gcp':
       return gcp;
     case 'html':
